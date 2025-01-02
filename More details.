@@ -1,0 +1,6 @@
+
+This Tic-Tac-Toe game is structured as a console-based Python program, where two players take turns to place their marks (either "X" or "O") on a 3x3 grid. The game flow and logic are driven by a main loop that continues running until a winner is determined or the game ends in a draw.
+
+At the beginning, the program imports several helper functions (draw_board, check_turn, and check_for_win) from a separate file named helpers.py, which is assumed to handle specific tasks like drawing the board, checking whose turn it is, and determining if a player has won the game. Additionally, the os module is imported to clear the screen after each move, creating a cleaner interface for the player by removing the clutter of previous game states.
+
+The board itself is represented using a dictionary called spots, where each key (from 1 to 9) represents a spot on the 3x3 Tic-Tac-Toe grid. Initially, these spots are filled with the numbers as strings (e.g., '1', '2', etc.), but as the game progresses, these numbers are replaced with either "X" or "O" based on the players' moves.
